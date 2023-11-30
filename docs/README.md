@@ -48,9 +48,7 @@ storm<a href="#fn1" class="footnote-ref" id="fnref1"
 role="doc-noteref"><sup>1</sup></a></span></p>
 </div>
 <div style="text-align:center;">
-<p><img
-src="https://github.com/saforem2/LLM-tutorial/blob/main/docs/assets/qr-code.png?raw=true"
-width="250" /></p>
+<p><img src="./assets/qr-code.png" width="250" /></p>
 </div>
 </div></td>
 </tr>

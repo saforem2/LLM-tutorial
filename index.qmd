@@ -98,7 +98,7 @@ format:
 
 ::: {style="text-align:center;"}
 
-![](https://github.com/saforem2/LLM-tutorial/blob/main/docs/assets/qr-code.png?raw=true){width="250px"}
+![](./assets/qr-code.png){width="250px"}
 
 :::
 
