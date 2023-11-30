@@ -8,10 +8,6 @@ format:
   revealjs:
     appearance:
       appearparents: true
-    # include-in-header:
-    #   - text: |
-    #       <link rel="stylesheet" href="./css/dark.scss" id="theme"/>
-    #       <link rel="stylesheet" href="./css/syntax-dark.scss" id="highlight-theme"/>
     code-line-numbers: false
     code-link: false
     code-copy: false
@@ -102,7 +98,7 @@ format:
 
 ::: {style="text-align:center;"}
 
-![](./assets/qr-code.png){width="250px"}
+![](https://github.com/saforem2/LLM-tutorial/blob/main/docs/assets/qr-code.png?raw=true){width="250px"}
 
 :::
 
