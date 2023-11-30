@@ -68,12 +68,13 @@ format:
     output-file: "README.md"
 ---
 
-# LLMs Tutorial Workshop
+# Creating Small(-ish) LLMs
 
 ::: {layout="[ 50, 40 ]" layout-valign="bottom"}
 
 ::: {.col1}
 
+[**LLM Tutorial / Workshop**]{.dim-text}  
 [Argonne National Laboratory]{.dim-text}  
 [Building 240, Room 1501]{.dim-text}  
 <br>
@@ -83,8 +84,8 @@ format:
 
 - [{{< fa brands github >}} `brettin/llm_tutorial`](https://github.com/brettin/llm_tutorial)
 - [{{< fa brands github >}} `saforem2/`](https://github.com/saforem2)
-  - [{{< fa brands github >}} `nanoGPT`](https://saforem2.github.io/nanoGPT)
-  - [{{< bi easel >}} `LLM-tutorial`](https://saforem2.github.io/LLM-tutorial)
+  - [{{< fa brands github >}} `nanoGPT`](https://saforem2.github.io/nanoGPT) (GitHub)
+  - [{{< bi easel >}} `LLM-tutorial`](https://saforem2.github.io/LLM-tutorial) (slides)
 
 :::
 
@@ -102,7 +103,7 @@ format:
 :::
 
 [^llm-animation]: [{{< fa brands github >}} `Hannibal046/Awesome-LLM`](https://github.com/Hannibal046/Awesome-LLM)
-[^slides-gh]: [{{< fa brands github >}}`saforem2/llm-lunch-talk`](https://github.com/Hannibal046/Awesome-LLM) [(slides)](https://saforem2.github.io/llm-lunch-talk)
+[^slides-gh]: [{{< fa brands github >}}`saforem2/LLM-tutorial](https://github.com/saforem2/LLM-tutorial) [(slides)](https://saforem2.github.io/LLM-tutorial)
 
 
 # Emergent Abilities {background-color="#FBFBFD"}

@@ -9,7 +9,7 @@ project:
 
 filters:
   - include-code-files
-title: "LLM Workshop at ALCF"
+title: "Creating Small(-ish) LLMs"
 date: today
 date-modified: last-modified
 favicon: "./favicon.svg"
@@ -36,8 +36,8 @@ author:
 citation:
    author: Sam Foreman
    type: speech
-   title: "LLM Workshop at ALCF"
-   url: https://saforem2.github.io/llm-lunch-talk
+   title: "Creating Small(-ish) LLMs"
+   url: https://saforem2.github.io/LLM-tutorial
 # favicon: "./assets/favicon.svg"
 # format:
 #   html:
@@ -46,15 +46,15 @@ citation:
 #
 website:
   favicon: "./favicon.svg"
-  description: "LLMs on Polaris (2023-10-11)"
+  description: "Creating Small(-ish) LLMs"
   page-navigation: true
-  title: "LLMs on Polaris"
-  site-url: "https://saforem2.github.io/llm-lunch-talk"
+  title: "Creating Small(-ish) LLMs"
+  site-url: "https://saforem2.github.io/LLM-tutorial"
   # favicon: "./favicon.svg"
   back-to-top-navigation: true
   # reader-mode: true
   open-graph: true
-  repo-url: https://github.com/saforem2/llm-lunch-talk
+  repo-url: https://github.com/saforem2/LLM-tutorial
   repo-actions: [source, edit, issue]
   google-analytics: G-XVM2Y822Y1
   sidebar: false
@@ -64,7 +64,7 @@ website:
     foregound: "#777777"
     right:
       - icon: github
-        href: https://github.com/saforem2/llm-lunch-talk
+        href: https://github.com/saforem2/LLM-tutorial
         aria-label: GitHub
   page-footer:
     left: "[samforeman.me](https://samforeman.me)"
@@ -93,7 +93,7 @@ website:
       - href: https://linkedin.com/in/saforem2
         text: "{{< fa brands linkedin >}}"
   twitter-card:
-    image: "https://github.com/saforem2/llm-lunch-talk/blob/main/docs/assets/thumbnail.png?raw=true"
+    image: "./assets/thumbnail.png"
     site: "@saforem2"
     creator: "@saforem2"
 
@@ -161,7 +161,6 @@ format:
   #   preview-links: true
   #   controls-tutorial: true
   #   controls: false
-  #   logo: "https://raw.githubusercontent.com/saforem2/llm-lunch-talk/main/docs/assets/anl.svg"
   #   history: false
   #   highlight-style: "atom-one"
   #   css:
