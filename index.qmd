@@ -70,7 +70,7 @@ format:
 
 # Creating Small(-ish) LLMs[^slides-gh]
 
-::: {layout="[ 50, 40 ]" layout-valign="bottom"}
+::: {layout="[ 50, 50 ]" layout-valign="center"}
 
 ::: {.col1}
 
@@ -87,14 +87,22 @@ format:
   - [{{< iconify line-md github-loop >}}`nanoGPT`](https://saforem2.github.io/nanoGPT) (GitHub)
   - [{{< bi easel >}} `LLM-tutorial`](https://saforem2.github.io/LLM-tutorial) (slides)
 
+
 :::
 
-::: {.col2 style="font-size: 0.6em;"}
+::: {.col2 style="font-size: 0.6em; text-align: center;"}
 
 ::: {#fig-llms}
 ![](https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif)
 
 [Large Language Models have (LLM)s have taken the ~~NLP community~~ **world** by storm[^llm-animation]]{.dim-text}
+
+:::
+
+
+::: {style="text-align:center;"}
+
+![](./assets/qr-code.png){width="250px"}
 
 :::
 
@@ -104,7 +112,6 @@ format:
 
 [^llm-animation]: [{{< iconify line-md github-loop >}}`Hannibal046/Awesome-LLM`](https://github.com/Hannibal046/Awesome-LLM)
 [^slides-gh]: [{{< iconify line-md github-loop >}}`saforem2/LLM-tutorial`](https://github.com/saforem2/LLM-tutorial)
-
 
 # Emergent Abilities {background-color="#FBFBFD"}
 

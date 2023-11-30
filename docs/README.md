@@ -4,16 +4,16 @@ Sam Foreman
 
 # Creating Small(-ish) LLMs[^1]
 
-<div layout-valign="bottom">
+<div layout-valign="center">
 
 <table>
 <colgroup>
-<col style="width: 55%" />
-<col style="width: 44%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><div class="col1" width="55.6%"
+<td style="text-align: center;"><div class="col1" width="50.0%"
 data-layout-align="center">
 <p><span class="dim-text"><strong>LLM Tutorial /
 Workshop</strong></span><br />
@@ -36,15 +36,20 @@ href="https://saforem2.github.io/nanoGPT"><code>nanoGPT</code></a>
 </ul></li>
 </ul>
 </div></td>
-<td style="text-align: center;"><div id="fig-llms" width="44.4%"
-data-layout-align="center" data-fig.extended="false">
+<td style="text-align: center;"><div class="col2"
+style="font-size: 0.6em; text-align: center;" width="50.0%"
+data-layout-align="center">
+<div id="fig-llms">
 <p><img
-src="https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif"
-data-fig.extended="false" /></p>
+src="https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif" /></p>
 <p>Figure 1: <span class="dim-text">Large Language Models have (LLM)s
 have taken the <del>NLP community</del> <strong>world</strong> by
 storm<a href="#fn1" class="footnote-ref" id="fnref1"
 role="doc-noteref"><sup>1</sup></a></span></p>
+</div>
+<div style="text-align:center;">
+<p><img src="./assets/qr-code.png" width="250" /></p>
+</div>
 </div></td>
 </tr>
 </tbody>
