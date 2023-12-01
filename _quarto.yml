@@ -53,11 +53,11 @@ website:
   # favicon: "./favicon.svg"
   back-to-top-navigation: true
   # reader-mode: true
-  open-graph: true
   repo-url: https://github.com/saforem2/LLM-tutorial
   repo-actions: [source, edit, issue]
   google-analytics: G-XVM2Y822Y1
   sidebar: false
+  open-graph: true
   navbar:
     logo: "./favicon.svg"
     background: "#222222"

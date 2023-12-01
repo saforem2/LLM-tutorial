@@ -19,7 +19,7 @@ data-layout-align="center">
 Workshop</strong></span><br />
 <span class="dim-text">Argonne National Laboratory</span><br />
 <span class="dim-text">Building 240, Room 1501</span><br />
-<br></p>
+<br> <br></p>
 <p><span style="font-weight: 600;"><a href="https://samforeman.me">Sam
 Foreman</a></span><br />
 <span class="dim-text" style="font-size: 0.8em;">2023-11-30</span></p>
@@ -39,12 +39,12 @@ href="https://saforem2.github.io/nanoGPT"><code>nanoGPT</code></a>
 <td style="text-align: center;"><div class="col2"
 style="font-size: 0.6em; text-align: center;" width="50.0%"
 data-layout-align="center">
-<div id="fig-llms">
+<div style="text-align: center;">
 <p><img
 src="https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif" /></p>
-<p>Figure 1: <span class="dim-text">Large Language Models have (LLM)s
-have taken the <del>NLP community</del> <strong>world</strong> by
-storm<a href="#fn1" class="footnote-ref" id="fnref1"
+<p><span class="dim-text" style="font-size: 0.7em;">LLMs have taken the
+<del>NLP community</del> <strong>world</strong> by storm<a href="#fn1"
+class="footnote-ref" id="fnref1"
 role="doc-noteref"><sup>1</sup></a></span></p>
 </div>
 <div style="text-align:center;">
@@ -93,7 +93,7 @@ data-layout-align="center" data-fig.extended="false">
 <p><img
 src="https://github.com/Mooler0410/LLMsPracticalGuide/raw/main/imgs/survey-gif-test.gif"
 data-fig.extended="false" /></p>
-<p>Figure 2: Visualization from <span class="citation"
+<p>Figure 1: Visualization from <span class="citation"
 data-cites="yang2023harnessing">Yang et al. (2023)</span></p>
 </div></td>
 <td style="text-align: center;"><div width="44.4%"
@@ -142,7 +142,7 @@ data-layout-align="center" data-fig.extended="false">
 <p><img
 src="https://jalammar.github.io/images/gpt3/03-gpt3-training-step-back-prop.gif"
 data-fig.extended="false" /></p>
-<p>Figure 3: <strong>Pre-training</strong>: Virtually all of the compute
+<p>Figure 2: <strong>Pre-training</strong>: Virtually all of the compute
 used during pretraining phase<a href="#fn1" class="footnote-ref"
 id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 </div></td>
@@ -169,7 +169,7 @@ role="doc-backlink">↩︎</a></p></li>
 <video data-autoplay src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/assisted-generation/gif_1_1080p.mov">
 </video>
 
-Figure 4: Language Model trained for causal language modeling. Video
+Figure 3: Language Model trained for causal language modeling. Video
 from: [🤗 Generation with
 LLMs](https://huggingface.co/docs/transformers/main/en/llm_tutorial)
 
@@ -182,7 +182,7 @@ LLMs](https://huggingface.co/docs/transformers/main/en/llm_tutorial)
 <video data-autoplay src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/assisted-generation/gif_2_1080p.mov">
 </video>
 
-Figure 5: Language Model trained for causal language modeling. Video
+Figure 4: Language Model trained for causal language modeling. Video
 from: [🤗 Generation with
 LLMs](https://huggingface.co/docs/transformers/main/en/llm_tutorial)
 
@@ -194,7 +194,7 @@ LLMs](https://huggingface.co/docs/transformers/main/en/llm_tutorial)
 
 ![](https://jalammar.github.io/images/gpt3/03-gpt3-training-step-back-prop.gif)
 
-Figure 6: **Pre-training**: Virtually all of the compute used during
+Figure 5: **Pre-training**: Virtually all of the compute used during
 pretraining phase
 
 </div>
@@ -205,14 +205,15 @@ pretraining phase
 
 ![](https://jalammar.github.io/images/gpt3/10-gpt3-fine-tuning.gif)
 
-Figure 7: **Fine-tuning**[^2]: Fine-tuning actually updates the model’s
+Figure 6: **Fine-tuning**[^2]: Fine-tuning actually updates the model’s
 weights to make the model better at a certain task.
 
 </div>
 
 # Assistant Models
 
-<span style="text-align:center; margin-left:auto; margin-right: auto;">![](./assets/jailbreak.jpeg)</span>
+<span class="preview-image"
+style="text-align:center; margin-left:auto; margin-right: auto;">![](./assets/jailbreak.jpeg)</span>
 
 # [`saforem2/nanoGPT`](https://github.com/saforem2/nanoGPT)
 
@@ -224,7 +225,7 @@ weights to make the model better at a certain task.
 
 ![](https://github.com/saforem2/nanoGPT/raw/master/assets/nanogpt.jpg)
 
-Figure 8: The simplest, fastest repository for training / finetuning GPT
+Figure 7: The simplest, fastest repository for training / finetuning GPT
 based models.
 
 </div>
@@ -761,6 +762,48 @@ style="font-size: 0.75em; width: 100%!important; height: 100%!important;">
             'y': y,
         }
 ```
+
+</div>
+
+# Hands-on Tutorial
+
+<div class="panel-tabset"
+style="font-size: 0.9em; width: 100%!important; height: 100%!important;">
+
+#### 📒 Shakespeare
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-shakespeare.ipynb)  
+- [Web
+  Version](https://saforem2.github.io/nanoGPT/quarto/shakespeare.html)
+- [`ngpt-shakespeare.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-shakespeare.ipynb)
+
+#### 📒 GPT-2 Small
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-yelp.ipynb)
+- [`ngpt-gpt2-yelp.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-yelp.ipynb)
+- Uses `yelp_review_full` dataset
+
+#### 📒 GPT-2 Medium
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2.ipynb)
+- [Web
+  Version](https://saforem2.github.io/nanoGPT/quarto/gpt2-medium.html)
+- [`ngpt-gpt2.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2.ipynb)
+
+#### 📒 GPT-2 XL
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-xl.ipynb)
+- [Web Version](https://saforem2.github.io/nanoGPT/quarto/gpt2-xl.html)
+- [`ngpt-gpt2-xl.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-xl.ipynb)
+
+#### 🔗 Links
+
+- <span style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt">📊
+  [Slides](https://saforem2.github.io/LLM-tutorial/#/llms-tutorial-workshop)</span>
+- <span style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt">🏡
+  [Project Website](https://saforem2.github.io/nanoGPT)</span>
+- <span style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt">💻
+  [`saforem2/nanoGPT`](https://github.com/saforem2/nanoGPT)</span>
 
 </div>
 

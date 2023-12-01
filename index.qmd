@@ -2,9 +2,6 @@
 filters:
   - roughnotation
 format:
-  gfm:
-    author: Sam Foreman
-    output-file: "README.md"
   revealjs:
     appearance:
       appearparents: true
@@ -62,6 +59,9 @@ format:
           theme: css/light.scss
           highlightTheme: css/syntax-light.scss
     themesPath: './docs/css/'
+  gfm:
+    author: Sam Foreman
+    output-file: "README.md"
 ---
 
 # Creating Small(-ish) LLMs[^slides-gh]
@@ -73,6 +73,7 @@ format:
 [**LLM Tutorial / Workshop**]{.dim-text}  
 [Argonne National Laboratory]{.dim-text}  
 [Building 240, Room 1501]{.dim-text}  
+<br>
 <br>
 
 [[{{< bi person-badge >}}Sam Foreman](https://samforeman.me)]{style="font-weight: 600;"}  
@@ -88,10 +89,10 @@ format:
 
 ::: {.col2 style="font-size: 0.6em; text-align: center;"}
 
-::: {#fig-llms}
+::: {style="text-align: center;"}
 ![](https://github.com/Hannibal046/Awesome-LLM/raw/main/resources/image8.gif)
 
-[Large Language Models have (LLM)s have taken the ~~NLP community~~ **world** by storm[^llm-animation]]{.dim-text}
+[LLMs have taken the ~~NLP community~~ **world** by storm[^llm-animation]]{.dim-text style="font-size: 0.7em;"}
 
 :::
 
@@ -228,7 +229,7 @@ Language Model trained for causal language modeling. Video from: [🤗 Generatio
 
 # Assistant Models {.centeredslide background-color="#181D29"}
 
-[![](./assets/jailbreak.jpeg)]{style="text-align:center; margin-left:auto; margin-right: auto;"}
+[![](./assets/jailbreak.jpeg)]{.preview-image style="text-align:center; margin-left:auto; margin-right: auto;"}
 
 
 # [{{< iconify line-md github-loop >}}`saforem2/nanoGPT`](https://github.com/saforem2/nanoGPT)
@@ -340,6 +341,43 @@ python3 -c 'import ngpt; print(ngpt.__file__)'
 ```
 
 :::
+
+# Hands-on Tutorial
+
+::: {.panel-tabset style="font-size: 0.9em; width: 100%!important; height: 100%!important;"}
+
+#### 📒 Shakespeare
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-shakespeare.ipynb)  
+- [Web Version](https://saforem2.github.io/nanoGPT/quarto/shakespeare.html)
+- [`ngpt-shakespeare.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-shakespeare.ipynb)
+      
+#### 📒 GPT-2 Small
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-yelp.ipynb)
+- [`ngpt-gpt2-yelp.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-yelp.ipynb)
+- Uses `yelp_review_full` dataset
+
+#### 📒 GPT-2 Medium
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2.ipynb)
+- [Web Version](https://saforem2.github.io/nanoGPT/quarto/gpt2-medium.html)
+- [`ngpt-gpt2.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2.ipynb)
+
+#### 📒 GPT-2 XL
+
+- [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-xl.ipynb)
+- [Web Version](https://saforem2.github.io/nanoGPT/quarto/gpt2-xl.html)
+- [`ngpt-gpt2-xl.ipynb`](https://github.com/saforem2/nanoGPT/blob/master/notebooks/ngpt-gpt2-xl.ipynb)
+
+#### 🔗 Links
+
+- [📊 [Slides](https://saforem2.github.io/LLM-tutorial/#/llms-tutorial-workshop)]{style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt"}
+- [🏡 [Project Website](https://saforem2.github.io/nanoGPT)]{style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt"}
+- [💻 [`saforem2/nanoGPT`](https://github.com/saforem2/nanoGPT)]{style="background-color:#f8f8f8; padding: 2pt; border-radius: 6pt"}
+
+:::
+
 
 # {background-iframe="https://saforem2.github.io/nanoGPT"}
 
